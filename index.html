@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!--Modo estandar en html5 compatible con varios navegadores  -->
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8"> <!--Formato de caracteres universales  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--indica al navegador web que renderice la página web utilizando el modo de compatibilidad edge, para que si se abre desde internet explorer este emule a microsoft edge  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Viewport: visualizacion de la pagina,width=device-width: la pagina se adapta a diferentes dispositivos,initial-scale=1.0: zoom en la pagina  -->
+    <title>Encriptador de texto - Alura Oracle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./img/logoAlura.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <!--Simepre debe ir primero en los estilos, resetea los estilos de los navegadores degando todos iguales.Tambien se puede usar Normalize  -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+    <main class="main"><!--Todo el contenido proncipal esta en main  -->
+        <section class="encriptador">
+            <div class="encriptador_logo">
+                <img class="encriptador_logo_img" src="./img/logoAlura.svg" alt="Logo de Alura Latam">
+            </div>
+            <form class="encriptador_form">
+                <textarea name="text_in_area" id="text" placeholder="Ingrese el texto aqui" required></textarea>
+                <div class="encriptador_form_text">
+                    <div class="encriptador_form_text_info">
+                        <img src="./img/exclamacion.svg" alt="simbolo de exclamacion">
+                        <p id="warning">Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="encriptador_form_text_buttons">
+                        <button onclick="encript(event)" id="btn" class="encriptador_form_text_buttons_bt1" >Encriptar</button>
+                        <button onclick="desencript(event)" id="btn" class="encriptador_form_text_buttons_bt2" >Desencriptar</button>
+                    </div>
+                </div>
+            </form>
+            <div class="encriptador_output">
+                <div class="encriptador_output_content" id="default">
+                    <img src="./img/muneco.svg" alt="persona con una lupa">
+                    <p id="p1">Ningún mensaje fue encontrado</p>
+                    <p id="p2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="encriptador_output_content invisible" id="result">
+                    <textarea name="text_output_area" id="text_output"  disabled></textarea>
+                    <button onclick="copy(event)" class="copy " >Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Diseñado por Halier Cesar | Oracle y AluraLatam. </p>
+        <!--Siguientes hipervinculos a paginas externas-->
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <img src="./img/linkedin.png" class="icon" alt="icono Linkedin">
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <img src="./img/github.png" class="icon" alt="icono GitHub">
+        </a>
+    </footer>
+<script src="./js/app.js"></script>
+
+</body>
+</html>
