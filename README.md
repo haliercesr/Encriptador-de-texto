@@ -4,12 +4,8 @@
 
 ![imagen](https://github.com/user-attachments/assets/d9361e67-a57a-4b4b-8862-03d1fcb9fe49)
 
-En esta SPA consta de una Landing Page, Home Page, Detail Page y Form Page. Las tecnologías utilizadas fueron React, Redux, NodeJS, Express y Sequelize.
-
-Para este proyecto se reemplazo Create React App por Vite, para mejorar el rendimiento.
-
-El flujo es el siguiente: El frontend se comunica con un servidor BBF (BACK FOR FRONT). Este servidor se programó en Express y filtra la información que se consume desde una API externa de Marvel Comics y la devuelve al frontend. También puede guardar datos según se solicite en una base de datos relacional. El servidor y la base de datos se comunican a través del ORM Sequelize. La base de datos está hecha con PostgreSQL y pgAdmin. Para probar el servidor, se utilizó el software Insomnia.
-
+Esta aplicación consta de un encriptador y un desencriptador de texto. La aplicación ya tiene seteados los valores de determinadas letras, al introducir una palabra se cambian las letras que correspondan con los valores seteados y se devuelve el texto encriptado. Las tecnologías utilizadas fueron Javascript, HTML y CSS.
+Se utilizó figma para el diseño, un tablero de trello para la organización de las tareas y github pages para el despliegue de la aplicación. 
 Cuenta con un diseño adaptable para moviles,tablets y pc.
 
 ## Tabla de Contenidos
@@ -23,95 +19,53 @@ Cuenta con un diseño adaptable para moviles,tablets y pc.
 
 ## Funcionalidades
 
-**1.** Búsqueda de personajes por nombre: Los usuarios pueden ingresar el nombre del personaje y obtener información sobre el mismo.
+**1.** Encriptar texto.
 
-**2.** Al hacer click sobre una carta obtienen los comics del personaje y al hacer click en la imagen de un comic pueden ver mas detalles.
+**2.** Desencriptar texto.
 
-**3.** Pueden guardar el personaje o sus comics haciendo click en la estrella.
+**3.** Boton para copir el texto encriptado
 
-**4.** Los personajes que son favoritos se guardan en la base de datos para poder verlos despues.
-
-**5.** Barra de Navegación: Una barra de navegación proporciona enlaces a las diferentes secciones de la aplicación, como la página de inicio, favoritos, home y detalles de un comic.
-
-**6.** Filtros combinados: falta terminarlos, un filtro que ordena por fecha de publicacion.
-
-**7.** Rutas y Enrutamiento: Se utiliza React Router para administrar y facilitar la navegación entre diferentes páginas y componentes de la aplicación.
-
-**8.** Gestión de Estado con Redux: Redux se utiliza para gestionar el estado global de la aplicación, como guardar informacion recibida del servidor para usarla en el front ya sea personajes, busqueda por nombre de personajes, comics y mas.
-
-**9.** Diseño Responsivo: La interfaz está diseñada para adaptarse a diferentes tamaños de pantalla y dispositivos, asegurando una experiencia de usuario consistente.
-
-**10.** Estilos Personalizados: Solo se utilizo CSS , los estilos CSS personalizados se aplican para crear una apariencia agradable y coherente en toda la aplicación.
-
-**11.** Interacción con API: La aplicación se conecta la API externa de Marvel Comics para obtener información actualizada sobre cada conductor.
 
 ## Tecnologías Utilizadas
 
-- Vite
-- React
-- React Router
-- Redux
-- Axios
+- HTML
 - CSS
-- NodeJS
-- Express
-- PostgreSQL
-- Sequalize
-- Promises
-- AsyncAwait
+- Javascript
 
 ## Capturas de Pantalla
 
- <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/be3ac9bd-977d-423d-addd-82215f4484be" alt="alt text" width=225 height=400>
+![imagen](https://github.com/user-attachments/assets/9e5636b9-adf6-4357-8196-92073023bd65)
 
- <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/c22f27dc-6413-46fa-a95a-6cae28a83a9b" alt="alt text" width=225 height=400>
+![imagen](https://github.com/user-attachments/assets/ed5ee479-acf8-4f9a-81fa-35a8d17c1b91)
 
- <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/01e53e9a-7cd1-4cf6-8d49-5bf924cf1e9f" alt="alt text" width=225 height=400>
+![imagen](https://github.com/user-attachments/assets/91a04581-8a33-498a-8afd-ebd70d8d18d0)
 
- <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/81f18aef-820e-4aff-bfb5-33731d5db2a1" alt="alt text" width=225 height=400>
+![imagen](https://github.com/user-attachments/assets/f9409113-207b-4f76-9b54-4fbe0f46b067)
 
-![image](https://github.com/haliercesr/MarvelComics/assets/115671323/069bf555-ed86-4c19-9817-7fc2e6bd125c)
-
-
-![image](https://github.com/haliercesr/MarvelComics/assets/115671323/74bf8054-2186-4a24-98a9-f434fff9f97c)
-
-
-
-
+![imagen](https://github.com/user-attachments/assets/ccbd41da-cdeb-4a68-a61c-bfb0a5542482)
 
 
 
 ## Guía de Uso
 
-**1.** Visita [https://marvel-comics-vqta.vercel.app/](https://marvel-comics-vqta.vercel.app/) en tu navegador.
+**1.** Visita [https://haliercesr.github.io/Encriptador-de-texto/](https://haliercesr.github.io/Encriptador-de-texto/) en tu navegador.
 
-<p align="center">
-  <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/85521fa7-5351-4cda-b35b-7b1e5445228c" alt="Inicio" width=400 height=200>
-</p>
+![imagen](https://github.com/user-attachments/assets/3918030a-1d13-47a2-9586-357e6caa6f4e)
 
+**2.** Ingresa el texto que deseas encriptar
 
-**2.** Para ver los comics de algun personaje debe hacer click en una card o insertar el nombre en el buscador
+![imagen](https://github.com/user-attachments/assets/604a6267-bda5-4047-8f46-647f9456284f)
 
-<p align="center">
-  <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/9df5ce6e-387b-40ad-aeb3-4dbe01b968b8" alt="Inicio" width=400 height=200>
-</p>
+**3.** Presiona el boton de enecriptar, a la derecha saldra el texto encriptado.
 
-
-**3.** Para ver los detalles de un comic debe hacer click en la imagen, tambien se puede seleccionar como favorito haciendo click en la estrella.
-
-<p align="center">
-  <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/2935c44d-9203-4f1c-853c-4a7e85ba67a9" alt="Inicio" width=400 height=200>
-</p>
+![imagen](https://github.com/user-attachments/assets/34b6050f-7c70-4778-b901-fa282836f7e8)
 
 
-**4.** Para ver sus personajes favoritos debe ir a la estrella superior izquierda, al hacer click en uno de sus favoritos puede ver los comics que selecciono como favoritos
+**4.** Tambien puedes copiar el texto encriptado con el boton que dice "copiar" y desencriptarlo.
 
-<p align="center">
-  <img src="https://github.com/haliercesr/MarvelComics/assets/115671323/bcb26a3b-0f28-4bb5-9cba-ed586592cf6a" alt="Inicio" width=400 height=200>
-</p>
+![imagen](https://github.com/user-attachments/assets/62639302-8888-4a9b-959d-05f3a792c762)
 
-
-**5.** Disfruta buscando a tu conductor favorito.
+**5.** Disfruta.
 
 ## Cómo Contribuir
 
