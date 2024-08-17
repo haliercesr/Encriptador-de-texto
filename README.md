@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Encriptador de texto Alura Latam y Oracle</h1>
+<h1 align="center">Encriptador de texto - Alura Latam y Oracle</h1>
 
 ![imagen](https://github.com/user-attachments/assets/d9361e67-a57a-4b4b-8862-03d1fcb9fe49)
 
