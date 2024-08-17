@@ -52,20 +52,23 @@ Cuenta con un diseño adaptable para moviles,tablets y pc.
 
 ![imagen](https://github.com/user-attachments/assets/3918030a-1d13-47a2-9586-357e6caa6f4e)
 
-**2.** Ingresa el texto que deseas encriptar
+**2.** No se admiten mayusculas, acentos o caracteres especiales.
+
+![imagen](https://github.com/user-attachments/assets/e0a4b922-b344-4e3b-8263-e2fc8915c300)
+
+**3.** Ingresa el texto que deseas encriptar
 
 ![imagen](https://github.com/user-attachments/assets/604a6267-bda5-4047-8f46-647f9456284f)
 
-**3.** Presiona el boton de enecriptar, a la derecha saldra el texto encriptado.
+**4.** Presiona el boton de enecriptar, a la derecha saldra el texto encriptado.
 
 ![imagen](https://github.com/user-attachments/assets/34b6050f-7c70-4778-b901-fa282836f7e8)
 
-
-**4.** Tambien puedes copiar el texto encriptado con el boton que dice "copiar" y desencriptarlo.
+**5.** Tambien puedes copiar el texto encriptado con el boton que dice "copiar" y desencriptarlo.
 
 ![imagen](https://github.com/user-attachments/assets/62639302-8888-4a9b-959d-05f3a792c762)
 
-**5.** Disfruta.
+**6.** Disfruta.
 
 ## Cómo Contribuir
 
