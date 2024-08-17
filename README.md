@@ -1,8 +1,8 @@
 
 
-<h1 align="center">MarvelComics</h1>
+<h1 align="center">Encriptador de texto Alura Latam y Oracle</h1>
 
-![image](https://github.com/haliercesr/MarvelComics/assets/115671323/2e62fc78-9e0a-47a0-8265-abf1dd87522c)
+![imagen](https://github.com/user-attachments/assets/d9361e67-a57a-4b4b-8862-03d1fcb9fe49)
 
 En esta SPA consta de una Landing Page, Home Page, Detail Page y Form Page. Las tecnologías utilizadas fueron React, Redux, NodeJS, Express y Sequelize.
 
